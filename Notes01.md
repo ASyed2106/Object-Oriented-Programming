@@ -1,6 +1,6 @@
 # Object Oriented Programming Notes 1
 
-I think OOP is awesome :)
+OOP is awesome!
 
 ```python
 
@@ -15,3 +15,7 @@ class Person:
     def __repr__(self):
         return self.__str__()
 ```
+## Defintions
+-Encapsulation
+-Polymorphism
+-Overide
