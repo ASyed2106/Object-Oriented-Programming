@@ -104,7 +104,7 @@ class Person:
 	def __init__(self, name):
 		self.name = name
 	#end of initialization
-	```
+	
 def greet(self): # the self parameter is always required
 		print(“Hello, my name is”, self.name)
 	#end of greet
@@ -112,3 +112,4 @@ def greet(self): # the self parameter is always required
 
 p = Person(‘Mr. Park’)
 p.greet()
+```
