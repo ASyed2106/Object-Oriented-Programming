@@ -1,12 +1,12 @@
-**Encapsulation**
+## **Encapsulation**
 → information hiding → restricting the access to the classes/objects certain attributes and methods 
 
-**Why do it?**
+## **Why do it?**
   
   → Data protection
   → Restricting certain methods to be callable
 
-**Example**
+#### **Example**
 ```python 
 class Student: # defining class
   def __init__(self,nameF, nameL, num):
@@ -25,7 +25,7 @@ print(s1.__getStudentNumber()) # Will cause an error
 print(s1.__studentNumber) # Will also cause an error
 ```
 
-**Importance of encapsulation**
+## **Importance of encapsulation**
 ```python
 class Student:
   def __init__(self,nameF, nameL, num):
@@ -46,7 +46,7 @@ s1.firstName = "Ms."
 print(s1.firstName) # Returns/Outputs “Ms.” 
 ```
 
-**Common practice**
+## **Common practice**
 
 ```python
 class Student:
@@ -75,7 +75,7 @@ Implementing the getter and setter pattern requires:
   → Making your attributes non-public ( ENCAPSULATING IT)
   → Writing getter and setter methods for each encapsulated attribute
 
-**Overriding and overloading**
+## **Overriding and overloading**
 
 _Overloading_ → two methods in one class that have the same method name BUT DIFFERENT parameters
 	→ classes can inherit code from the parent class
@@ -121,7 +121,7 @@ makeSound(dogObj)```
 **In Conclusion:**
 We can give two **different** classes the **same** methods; hence, Polymorphism.
 
-**Illegal overloading example **
+#### **Illegal overloading example **
  ```python
 class Person:
     def __init__(self, name, age):
