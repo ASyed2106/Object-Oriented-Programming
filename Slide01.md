@@ -1,4 +1,4 @@
-**OBJECT**
+## **OBJECT**
 
 →In computer science 
 
@@ -13,14 +13,14 @@ A combination of data and functional code. This is because real-world objects ha
 _States_ → The characteristic, Measurable data of an object
 _Behaviour _→ The available functionality of the object (what can it do?)
 
-**WHAT IS OBJECT ORIENTED PROGRAAMMING (OOP)?**
+## **WHAT IS OBJECT ORIENTED PROGRAAMMING (OOP)?**
 
 	- Programming practice to design reusable software systems
 	- OOP designs programs with creation of Objects
 	- An approach that focuses on the definition of data rather than the IPO logic (OOP vs procedure-oriented programming)
 	- The goal is to create an object that we can define and provide functionality to solve problems
 
-**COMPUTATIONAL DIFFERENCES**
+## **COMPUTATIONAL DIFFERENCES**
 
 → Procedure-oriented programming
 
@@ -39,7 +39,7 @@ _Behaviour _→ The available functionality of the object (what can it do?)
   
 ***OOP focuses on HOW to manipulate the data of the object rather than the logic required to manipulate them***
 
-**AN OBJECT IS AN INSTANCE**
+## **AN OBJECT IS AN INSTANCE**
 
 _Instance_ → an instance is a specific realization of any object. An object may be different in several ways, and each realized variation of that object is an instance. The creation of a realized instance is called instantiation.
 
@@ -51,7 +51,7 @@ _Attributes_ →  a data element representing the quality or state of the class 
 
 _Method_ → a procedure associated with a message and an object. An object consists of state data and behavior; these compose an interface, which specifies how the object may be utilized by any of its various consumers. A method is a behavior of an object parametrized by a user.
 
-EXAMPLE
+#### EXAMPLE
 
 →Dog may have the following _attributes_
 
@@ -69,7 +69,7 @@ EXAMPLE
 
 *If we populate the Dog’s attributes (Name,Color…) then we have an instance; therefore, an object.*
 
-**WHAT IS A CLASS**
+## **WHAT IS A CLASS**
 
 - An abstract description of all objects that can be made from this set class where an object can be instantiated from.
 - A Class Contains Attributes
@@ -80,7 +80,7 @@ EXAMPLE
 2. Methods: Functions that the object or the object can call
 	class | keyword | → A built-in keyword in Python 3 that allows us to create our own classes.
 
-**EXAMPLE**
+#### **EXAMPLE**
 ```python 
 class Name: # Class names are CAPATILIZED
 	pass 
@@ -89,7 +89,7 @@ class Name: # Class names are CAPATILIZED
 obj = ClassName() # creating instances of Name class
 print(obj) # printing object
 ```
-**HOW TO CREATE A CLASS**
+## **HOW TO CREATE A CLASS**
 1. First define the name of the class with the keyword: class
 2. In its code block (indentation) define its attributes
 3. Then you can assign a variable with an instantiation of the class to interact with it
@@ -97,7 +97,7 @@ Make sure to use parentheses when calling the class name.
 
 Classes can have methods. In Python 3, we just declare them like a new function (it doesn’t always need to return).
 
-**EXAMPLE**
+#### **EXAMPLE**
 ```python 
 class Person:
 	def greet(self): # method 
@@ -107,7 +107,7 @@ class Person:
 	p = Person() # creating instance
 	p.greet() # outputs the greet message # calling method 
 ```
-**__init__  method and self parameters**
+## **__init__  method and self parameters**
 def __init__(self): → The __init__ method 
 - The initialization method is executed as soon as an object of the class is instantiated
 - It helps us to do any initialization for the object’s attributes
@@ -117,7 +117,7 @@ def __init__(self): → The __init__ method
 
 *Double Underscore ??? → These are key hidden features of Python that allow us to do some overwriting of Python features and hidden content*
 
-**EXAMPLE**
+#### **EXAMPLE**
 ```python 
 class Person:
 	def __init__(self, name):
