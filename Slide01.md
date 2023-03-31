@@ -32,7 +32,7 @@ _Behaviour _→ The available functionality of the object (what can it do?)
 		
 → Object oriented programming
 
-`	- Creating a human object
+	- Creating a human object
 		- What’s their name
 		- What’s their address
 		- What functions can this object have?
@@ -44,20 +44,25 @@ _Behaviour _→ The available functionality of the object (what can it do?)
 _Instance_ → an instance is a specific realization of any object. An object may be different in several ways, and each realized variation of that object is an instance. The creation of a realized instance is called instantiation.
 
 _Object’s Data _→ called: attributes
+
 _Object’s Code_ → called: methods
+
 _Attributes_ →  a data element representing the quality or state of the class or object. An attribute defines a particular property of an object
+
 _Method_ → a procedure associated with a message and an object. An object consists of state data and behavior; these compose an interface, which specifies how the object may be utilized by any of its various consumers. A method is a behavior of an object parametrized by a user.
 
 EXAMPLE
 
-➡Dog may have the following attributes
+→Dog may have the following _attributes_
+
 	- Name
 	- Color
 	- Breed
 	- isHungry
 	- isThirsty
 	
-➡Dog may have the following methods
+→Dog may have the following _methods_
+
 	- bark()
 	- eat()
 	- sleep()
@@ -65,6 +70,7 @@ EXAMPLE
 *If we populate the Dog’s attributes (Name,Color…) then we have an instance; therefore, an object.*
 
 **WHAT IS A CLASS**
+
 - An abstract description of all objects that can be made from this set class where an object can be instantiated from.
 - A Class Contains Attributes
 
