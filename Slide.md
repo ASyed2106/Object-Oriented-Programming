@@ -1,5 +1,6 @@
-Object 
+
 ```python 
+**OBJECT **
 
 ➡In computer science 
     - Objects can be a variable, a data structure, a function, or a method
@@ -7,32 +8,30 @@ Object
 ➡In object oriented programming (OOP)
     - An instance of a class where this object can be either a variable, a function, a data structure or a combination of such
 
-_What is OOP_
-Programming practice to design reusable software systems
-OOP designs programs with creation of Objects
-An approach that focuses on the definition of data rather than the input → processing → output logic (OOP vs procedure-oriented programming)
-The goal is to create an object that we can define and provide functionality to solve problems
-
-Computational differences 
-Procedure-oriented programming
-A human may require:
-Calculations
-Logical Evaluations
-Complete Repetitive tasks
-Database
-Object oriented programming
-Creating a human object
-What’s their name
-What’s their address
-What functions can this object have?
-  
-***OOP focuses on HOW to manipulate the data of the object rather than the logic required to manipulate them***
-
-Object: A combination of data and functional code. This is because real-world objects have states and behaviour.
-
+***A combination of data and functional code. This is because real-world objects have states and behaviour.***
 States→ The characteristic, Measurable data of an object
 Behaviour→ The available functionality of the object (what can it do?)
 
+**WHAT IS OOP?**
+	- Programming practice to design reusable software systems
+	- OOP designs programs with creation of Objects
+	- An approach that focuses on the definition of data rather than the input → processing → output logic (OOP vs procedure-oriented programming)
+	- The goal is to create an object that we can define and provide functionality to solve problems
+
+**COMPUTATIONAL DIFFERENCES **
+➡Procedure-oriented programming
+	- A human may require:
+		- Calculations
+		- Logical Evaluations
+		- Complete Repetitive tasks
+		- Database
+➡Object oriented programming
+`	- Creating a human object
+		- What’s their name
+		- What’s their address
+		- What functions can this object have?
+  
+***OOP focuses on HOW to manipulate the data of the object rather than the logic required to manipulate them***
 
 RECALL THAT AN OBJECT IS AN INSTANCE
 Instance → an instance is a specific realization of any object. An object may be different in several ways, and each realized variation of that object is an instance. The creation of a realized instance is called instantiation.
