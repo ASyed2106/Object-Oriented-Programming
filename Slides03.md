@@ -70,10 +70,7 @@ class Student(Person):
   1. Multi-generational
       Grandparent → Parent → Child
   2. Mulitparent ( NOT limited to two)
-      Parent A \
-			          > Child
-      Parent B /
-  3. Mixure of 1 and 2
+  3. Mixture of 1 and 2
 
 ## Polymorphism with a inheritance kick
 
