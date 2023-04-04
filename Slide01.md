@@ -11,7 +11,8 @@
 A combination of data and functional code. This is because real-world objects have states and behaviour
 
 _States_ → The characteristic, Measurable data of an object
-_Behaviour _→ The available functionality of the object (what can it do?)
+
+_Behaviour_ → The available functionality of the object (what can it do?)
 
 ## **WHAT IS OBJECT ORIENTED PROGRAAMMING (OOP)?**
 
@@ -43,7 +44,7 @@ _Behaviour _→ The available functionality of the object (what can it do?)
 
 _Instance_ → an instance is a specific realization of any object. An object may be different in several ways, and each realized variation of that object is an instance. The creation of a realized instance is called instantiation.
 
-_Object’s Data _→ called: attributes
+_Object’s Data_ → called: attributes
 
 _Object’s Code_ → called: methods
 
@@ -129,6 +130,6 @@ def greet(self): # the self parameter is always required
 	#end of greet
 #end of class Person
 
-p = Person(‘Mr. Park’)
+p = Person(‘Aroush’)
 p.greet()
 ```
