@@ -116,12 +116,13 @@ bearObj = Bear()
 dogObj = Dog()
  
 makeSound(bearObj)
-makeSound(dogObj)```
+makeSound(dogObj) 
+```
 
 **In Conclusion:**
 We can give two **different** classes the **same** methods; hence, Polymorphism.
 
-#### **Illegal overloading example **
+## **Illegal overloading example**
  ```python
 class Person:
     def __init__(self, name, age):
@@ -136,16 +137,8 @@ class Person:
 ```
 *** whenever we see two double underlines( __str__)  → we are creating custom class and overriding previous code 
 
-**Why override built-in methods?** 
+###**Why override built-in methods?** 
 
-**for basically all classes**
-```python
-def __str__(self):
-	#base override of the string built-method 
-	return f’User: {self.__username}
-def __repr__(self):
-	Return self.__str__()
-```
 When we try to make our custom objects printable, we actually need to override __repr__ and __str__
 __repr__ → Allows us to present a printable version of our object
 __str__ → Allows us to convert our object to a string
